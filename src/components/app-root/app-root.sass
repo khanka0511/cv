@@ -1,0 +1,25 @@
+@import '../cv-link/cv-link.sass'
+@import '../cv-name/cv-name.sass'
+@import '../cv-sector/cv-sector.sass'
+@import '../left-panel/left-panel.sass'
+@import '../right-panel/right-panel.sass'
+@import '../sector-divider/sector-divider.sass'
+	
+$padding-px: 84px
+app-root
+	display: flex
+	
+	font-family: 'Open Sans',sans-serif
+	font-size: 13px
+	font-weight: 300
+	letter-spacing: .025em
+
+	@media only screen and(min-width: 1200px)
+		padding-left: $padding-px
+		padding-right: $padding-px
+	.mar-top-small
+		margin-top: 10px
+	.mar-top-big
+		margin-top: 40px
+	.small-text
+		font-size: 11px!important
