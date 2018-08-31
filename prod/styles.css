@@ -1,0 +1,65 @@
+cv-link a, cv-link a:hover, cv-link a:visited {
+  color: #42c5d8;
+  text-decoration: none;
+}
+
+cv-name #initials {
+  font-size: 900%;
+}
+cv-name #name {
+  font-weight: 600;
+  font-size: 17px;
+}
+
+cv-sector {
+  display: flex;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+}
+
+left-panel {
+  flex: 0 0 25%;
+}
+
+right-panel {
+  flex: 0 0 75%;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+right-panel .header {
+  flex: 0 0 25%;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 17px;
+}
+right-panel .subheader {
+  font-weight: 600;
+}
+
+sector-divider div {
+  width: 100%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+app-root {
+  display: flex;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  letter-spacing: 0.025em;
+}
+@media only screen and (min-width: 1200px) {
+  app-root {
+    padding-left: 84px;
+    padding-right: 84px;
+  }
+}
+app-root .mar-top-small {
+  margin-top: 10px;
+}
+app-root .mar-top-big {
+  margin-top: 40px;
+}
+app-root .small-text {
+  font-size: 11px !important;
+}

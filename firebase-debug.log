@@ -1,0 +1,24 @@
+[debug] [2018-08-31T02:04:47.608Z] ----------------------------------------------------------------------
+[debug] [2018-08-31T02:04:47.610Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2018-08-31T02:04:47.611Z] CLI Version:   4.2.1
+[debug] [2018-08-31T02:04:47.611Z] Platform:      darwin
+[debug] [2018-08-31T02:04:47.611Z] Node Version:  v10.8.0
+[debug] [2018-08-31T02:04:47.612Z] Time:          Fri Aug 31 2018 10:04:47 GMT+0800 (Ulaanbaatar Standard Time)
+[debug] [2018-08-31T02:04:47.612Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-08-31T02:04:47.621Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-08-31T02:04:47.622Z] > authorizing via signed-in user
+[debug] [2018-08-31T02:04:47.624Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/khantushig0511  
+ 
+[debug] [2018-08-31T02:04:48.642Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-31T02:04:48.644Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/khantushig0511  
+ 
+[debug] [2018-08-31T02:04:49.970Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/nest-4/Desktop/kachjs-cv'...
+[info] 
+[debug] [2018-08-31T02:04:49.972Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/946031827787/clients/_:getWebAppConfig  
+ 
+[debug] [2018-08-31T02:04:50.895Z] <<< HTTP RESPONSE 200
+[info] i  hosting[khantushig0511]: Serving hosting files from: prod
+[info] ✔  hosting[khantushig0511]: Local server: http://localhost:5000
